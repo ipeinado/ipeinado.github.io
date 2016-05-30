@@ -1,7 +1,115 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<title>
+		GPII APCP demo
+	</title>
+	<link rel="stylesheet" href="styles/metro.css">
+	<link rel="stylesheet" href="styles/metro-icons.css">
+	<link rel="stylesheet" href="styles/metro-responsive.css">
+	<link rel="stylesheet" href="styles/metro-schemes.css">
+	<link rel="stylesheet" href="styles/style.css">
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="scripts/metro.js"></script>
+	<script src="scripts/script.js"></script>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+	<ul class="v-menu context block-shadow-impact" id="gpii-contextual-menu">
+    	<li><a href="#">Open <span style="float: right; font-size: .9em">Cmd + G</span></a></li>
+    	<li class="divider"></li>
+    	<li><a href="#"><span class="mif-checkmark icon"></span>Main Prefs</a></li>
+    	<li><a href="#">Tired</a></li>
+    	<li><a href="#">Bright Light</a></li>
+    	<li><a href="#">Noisy</a></li>
+    	<li class="divider"></li>
+    	<li><a href="#">Edit preferences</a></li>
+    	<li><a href="#">Save current settings</a></li>
+    	<li><a href="#">Key out of GPII</a></li>
+    	<li class="divider"></li>
+    	<li><a href="#">Quit GPII</a></li>
+	</ul>
+	<ul class="v-menu darcula" id="pcp">
+		<li class="menu-title">
+			<span class="mif-user mif-2x icon"></span>
+			Main Prefs
+			<a href="#"><span class="mif-expand-more mif-2x"></span></a>
+		</li>
+		<li class="divider"></li>
+    	<li>
+    		<a href="#">
+   				<span class="mif-volume-high icon"></span>
+   				Speech rate
+    			<div class="number-selector pref-controls">
+
+    				<span id="speech-rate-minus" class="mif-minus number-selector-button"></span>    					
+    				<div class="input-control text">
+    					<input type="text" id="input-speech-rate">
+    				</div>
+   					<span id="speech-rate-plus" class="mif-plus number-selector-button"></span>    					
+    			</div>
+    		</a>
+    	</li>
+    	<li>
+    		<a href="#">
+    			<span class="mif-creative-commons icon"></span>
+    			Captions
+    			<div class="pref-controls">
+	    			<label class="switch">
+	    				<input type="checkbox">
+	    				<span class="check"></span>
+	    			</label>
+    			</div>
+    		</a> 
+    	</li>
+    	<li><a href="#">
+    		<span class="mif-bold icon"></span>
+    		Font size
+    		<div class="number-selector pref-controls">
+
+    				<span id="font-size-minus" class="mif-minus number-selector-button"></span>    					
+    				<div class="input-control text">
+    					<input type="text" id="input-font-size">
+    				</div>
+   					<span id="font-size-plus" class="mif-plus number-selector-button"></span>    					
+    			</div>
+    	</a></li>
+
+    	<li class="buttons-horizontal-container">
+    		<ul class="buttons-horizontal">
+    			<li><a href="#">
+    				<span class="mif-exit icon"></span>
+    				<span class="button-text">Key out</span>
+    			</a></li>
+    			<li><a href="#">
+    				<span class="mif-cog icon"></span>
+    				<span class="button-text">Edit<br />preferences</span>
+    			</a></li>
+    			<li><a href="#">
+    				<span class="mif-cloud-upload icon"></span>
+    				<span class="button-text">Save<br />preferences</span>
+    			</a></li>
+    			<li><a href="#">
+    				<span class="mif-help icon"></span>
+    				<span class="button-text">Help <br />with GPII</span>
+    			</a></li>
+    		</ul>
+    	</li>
+	</ul>
+
+	<div id="taskbar">
+		<div class="taskbar-menu" id="taskbar-left">
+			<ul class="taskbar-menu-list">
+				<li><span class="mif-windows mif-2x"></span></li>
+				<li class="divider"></li>
+			</ul>
+		</div>
+		<div class="taskbar-menu" id="taskbar-right">
+			<ul class="taskbar-menu-list">
+				<li>
+					<a href="#" id="gpii">GPII</a>
+				</li>
+			</ul>
+		</div>
+ 	</div>
 </body>
 </html>

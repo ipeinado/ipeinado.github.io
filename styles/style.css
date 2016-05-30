@@ -1,0 +1,168 @@
+body {
+	background-image: url(../images/windows-10-wp.jpg);
+	background-size: auto 100%;
+	background-position: center center;
+	color: white;
+}
+
+#taskbar {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background: #000;
+	color: #FFF;
+}
+
+.taskbar-menu ul.taskbar-menu-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.taskbar-menu ul.taskbar-menu-list > li {
+	display: inline-block;
+	float: left;
+	width: 40px;
+	height: 40px;
+	padding: 6px;
+
+}
+
+.taskbar-menu ul.taskbar-menu-list > li:hover {
+	background: #3c3f41;
+}
+
+.taskbar-menu ul.taskbar-menu-list > li.active {
+	background: #3c3f41;
+}
+
+.taskbar-menu ul.taskbar-menu-list li a {
+	color: #FFF;
+}
+
+#taskbar-left {
+	float: left;
+}
+
+#taskbar-right {
+	float: right;
+}
+
+#gpii-contextual-menu {
+	position: absolute;
+	bottom: 40px;
+	right: 36px;
+}
+
+#pcp {
+	position: absolute;
+	right: 0;
+	bottom: 40px;
+}
+
+#pcp li.menu-title {
+	font-size: 1rem;
+}
+
+#pcp li.menu-title:hover {
+	background: #303234;
+}
+
+#pcp li.menu-title > a {
+	min-width: 36px;
+	max-width: 36px;
+	width: 36px;
+	height: 36px;
+	padding: 6px 0 0 0;
+	margin: 0;
+	background: #303234;
+	float: right;
+	text-align: center;
+	color: #CCC;
+}
+
+#pcp li.menu-title > a:hover {
+	color: #FFFFFF;
+}
+
+ul#pcp li.buttons-horizontal-container:hover {
+	background: #3c3f41;
+}
+
+ul#pcp.v-menu.darcula {
+	overflow: hidden;
+	width: 388px;
+	max-width: 388px
+}
+
+ul.buttons-horizontal {
+	margin: 12px 0;
+	padding: 6px;
+}
+
+ul.buttons-horizontal > li {
+	width: 86px;
+	min-width: 86px;
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+	height: 72px;
+	margin: 4px;
+	border: 2px solid #4C4C4C;
+}
+
+ul.buttons-horizontal > li:hover {
+	border: 2px solid #CCCCCC;
+}
+
+ul.buttons-horizontal > li > a {
+	display: inline-block;
+	background: #4C4C4C !important;
+	min-width: 86px;
+	width: 86px;
+	height: 72px;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	vertical-align: text-bottom;
+	font-size: .85em;
+	line-height: 1.2em;
+}
+
+ul.buttons-horizontal > li > a > span.icon {
+	position: absolute;
+	top: 12px;
+	left: 6px;
+}
+
+ul.buttons-horizontal > li > a > span.button-text {
+	position: absolute;
+	bottom: 8px;
+	left: 6px;
+}
+
+.pref-controls {
+	display: inline;
+	text-align: right;
+	float: right;
+	margin-top: -5px;
+}
+
+.pref-controls .number-selector-button {
+	color: #CCCCCC;
+}
+
+.pref-controls .number-selector-button:hover {
+	color: #FFFFFF;
+}
+
+.pref-controls .input-control input, 
+.pref-controls .input-control.text {
+	display: inline;
+	width: 3.275em;
+	margin: 0 4px;
+}
+
+
+
