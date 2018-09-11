@@ -1,0 +1,2 @@
+webpackJsonp([0x801332e32d51],{369:function(e,t){e.exports={data:{article:{title:"Getting Started 2",body:{processed:"<p>The second page on how to get started</p>",value:"<p>The second page on how to get started</p>\r\n"}}},pathContext:{slug:"/help/12"}}}});
+//# sourceMappingURL=path---help-12-efc2d547b0047dda9408.js.map
