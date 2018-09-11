@@ -1,0 +1,2 @@
+webpackJsonp([51327362515378],{362:function(t,a){t.exports={data:{page:{title:"About",body:{processed:"<p>This is the about page, with general information about Morphic</p>",value:"<p>This is the about page, with general information about Morphic</p>\r\n"}}},pathContext:{slug:"/pages/1"}}}});
+//# sourceMappingURL=path---pages-1-313e4569f2fb9d276293.js.map
