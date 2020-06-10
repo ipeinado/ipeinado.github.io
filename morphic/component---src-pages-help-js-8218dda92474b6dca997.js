@@ -1,2 +1,0 @@
-webpackJsonp([0xe49e599ac2bb],{210:function(e,n,t){(function(e){"use strict";function r(e){return e&&e.__esModule?e:{default:e}}n.__esModule=!0,n.query=void 0;var a=t(2);r(a),t(48);n.default=function(n){var t=n.data;return console.log(t.terms),e.createElement("div",null,e.createElement("h1",null,"Help and Learning"),t.terms.edges.map(function(n){var t=n.node;return e.createElement("div",{key:t.tid},e.createElement("p",null,t.name))}))};n.query="** extracted graphql fragment **"}).call(n,t(12))}});
-//# sourceMappingURL=component---src-pages-help-js-8218dda92474b6dca997.js.map
